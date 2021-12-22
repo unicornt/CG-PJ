@@ -18,6 +18,15 @@
     <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\controls.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ColorFragmentShader.fragmentshader">
@@ -26,10 +35,24 @@
     <None Include="TransformVertexShader.vertexshader">
       <Filter>源文件</Filter>
     </None>
+    <None Include="TextureFragmentShader.fragmentshader">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shader.hpp">
+    <ClInclude Include="..\shader.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\texture.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\controls.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\wood.bmp">
+      <Filter>源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>
